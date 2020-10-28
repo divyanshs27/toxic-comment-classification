@@ -28,7 +28,7 @@ def main():
         st.title("Toxic Comment Classification System")
         #image=Image.open('Magnify_Monitoring.jpg')
         #st.image(image,use_column_width=True)
-        train = pd.read_csv('train.csv')
+        train = pd.read_csv('train_final.csv')
         st.set_option('deprecation.showfileUploaderEncoding', False)#to remove error
         st.subheader("Please Upload Your Dataset")
         data=st.file_uploader("Upload your dataset",type=['csv','xlsx','txt','json'])
