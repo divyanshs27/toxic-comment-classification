@@ -54,7 +54,7 @@ def main():
         st.subheader("Multinomial Logistic Regression is a classification method that generalizes logistic regression to multiclass problems and predicts the probabilities of the different possible outcomes of a categorically distributed dependent variable, given a set of independent variable. The Python scikit learn library has an inbuilt tool that can be used for this task and for our first baseline model")
     elif option=='Toxic Comment Classification System':
         st.title("Toxic Comment Classification System")
-        train = pd.read_csv('D:/Internship/Technocolabs/final project/train.csv')
+        train = pd.read_csv('Data/train_final.csv')
         st.set_option('deprecation.showfileUploaderEncoding', False)#to remove error
         st.subheader("Please Upload Your Dataset")
         data=st.file_uploader("Upload your dataset",type=['csv','xlsx','txt','json'])
