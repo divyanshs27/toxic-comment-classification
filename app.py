@@ -25,12 +25,12 @@ def main():
         st.image(image,use_column_width=True)
         st.title("Dataset and EDA")
         st.subheader("The Dataset used for this task is sourced from a Kaggle competition and is titled as the Jigsaw/Conversation AI Toxic Comment Classification Challenge Dataset. The creator have so far built a range of publicly available models served through the Perspective API and created this competition to enable participants to build a multi-headed model that is capable of detecting different types of toxicity like threats, obscenity, insults, and identity based hate better than their models. The dataset is composed of comments from Wikipedia’s talk page edits. The various categorizations for the comments are: toxic, severe toxic, obscene, threat, insult, and identity hate.The training dataset consists of 160k training samples and the test set consists of 153k samples.Understanding the dataset is an extremely vital task and there are several insights to be drawn from the dataset. ")
-        image=Image.open('3rd.png')
+        image=Image.open('Sources/3rd.PNG')
         st.image(image,use_column_width=True)
         st.subheader("Another interesting data analysis that has been performed is the analysis of the correlation across several parameters shown in the following figures.")
-        image=Image.open('4th.png')
+        image=Image.open('Sources/4th.PNG')
         st.image(image,use_column_width=True)
-        image=Image.open('5th.png')
+        image=Image.open('Sources/5th.PNG')
         st.image(image,use_column_width=True)
        
         st.title("Word Frequencies")
@@ -39,12 +39,12 @@ def main():
         st.subheader("- IDF: Downscales words that appear a lot across documents ")
         st.subheader("This highlights those words that are more interesting, e.g. frequent in a document but not across documents. The weight of a term that occurs in a document is simply proportional to the term frequency.")
         pics = {
-                    "Toxic": Image.open('6th.png'),
-                    "Severe_Toxic": Image.open('7th.png'),
-                    "Obscene": Image.open('8th.png'),
-                    "Threat": Image.open('9th.png'),
-                    "Insult": Image.open('10th.png'),
-                    "Identity_hate": Image.open('11th.png'),
+                    "Toxic": Image.open('Sources/6th.PNG'),
+                    "Severe_Toxic": Image.open('Sources/7th.PNG'),
+                    "Obscene": Image.open('Sources/8th.PNG'),
+                    "Threat": Image.open('Sources/9th.PNG'),
+                    "Insult": Image.open('Sources/10th.PNG'),
+                    "Identity_hate": Image.open('Sources/11th.PNG'),
 
                     
                 }
