@@ -75,7 +75,6 @@ def main():
                 test.drop('comment_text', axis=1, inplace=True)
                 test.to_csv('solution.csv', index=False)
                 #st.dataframe(test.style.highlight_max(axis=0)
-                status_text.text('Done!')
                 st.balloons()  
                 st.dataframe(test.head(10))
     
