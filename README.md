@@ -1,5 +1,5 @@
 # toxic-comment-classification
-#Problem Statement and Background
+Problem Statement and Background
 Maintaining a decorum on an online forum is the need of the hour. Defined as “willful and repeated harm inflicted through the medium of electronic text”, cyber bullying puts targets under attack from a barrage of degrading, threatening, and/or sexually explicit messages and images conveyed using web sites, instant messaging, blogs, chat rooms, cell phones, web sites, e‐mail, and personal online profiles. Thus, the task of identifying and removing toxic communication from public forums is critical and is infeasible for human moderators.
 The exact problem statement was thus as below:
 Given a group of sentences or paragraphs, used as a comment by a user in an online platform, classify it to belong to one or more of the following categories — toxic, severe-toxic, obscene, threat, insult or identity-hate with either approximate probabilities or discrete values (0/1).
